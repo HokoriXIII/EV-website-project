@@ -25,7 +25,6 @@
       url("../fonts/exo-2-v4-latin_cyrillic-300.svg#Exo2") format("svg");
   /* Legacy iOS */
 }
-
 /* exo-2-regular - latin_cyrillic */
 @font-face {
   font-family: "Exo 2";
@@ -46,7 +45,6 @@
       url("../fonts/exo-2-v4-latin_cyrillic-regular.svg#Exo2") format("svg");
   /* Legacy iOS */
 }
-
 /* exo-2-600 - latin_cyrillic */
 @font-face {
   font-family: "Exo 2";
@@ -67,7 +65,6 @@
       url("../fonts/exo-2-v4-latin_cyrillic-600.svg#Exo2") format("svg");
   /* Legacy iOS */
 }
-
 /* exo-2-800 - latin_cyrillic */
 @font-face {
   font-family: "Exo 2";
@@ -88,7 +85,6 @@
       url("../fonts/exo-2-v4-latin_cyrillic-800.svg#Exo2") format("svg");
   /* Legacy iOS */
 }
-
 /* montserrat-300 - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Montserrat";
@@ -113,7 +109,6 @@
       format("svg");
   /* Legacy iOS */
 }
-
 /* montserrat-regular - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Montserrat";
@@ -138,7 +133,6 @@
       format("svg");
   /* Legacy iOS */
 }
-
 /* montserrat-600 - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Montserrat";
@@ -163,7 +157,6 @@
       format("svg");
   /* Legacy iOS */
 }
-
 /* montserrat-800 - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Montserrat";
@@ -188,7 +181,6 @@
       format("svg");
   /* Legacy iOS */
 }
-
 /* open-sans-regular - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Open Sans";
@@ -213,7 +205,6 @@
       format("svg");
   /* Legacy iOS */
 }
-
 /* open-sans-600 - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Open Sans";
@@ -238,7 +229,6 @@
       format("svg");
   /* Legacy iOS */
 }
-
 /* open-sans-700 - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Open Sans";
@@ -263,7 +253,6 @@
       format("svg");
   /* Legacy iOS */
 }
-
 /* open-sans-800 - latin_cyrillic_cyrillic-ext */
 @font-face {
   font-family: "Open Sans";
@@ -292,7 +281,6 @@
 body {
   background-color: #17becf;
 }
-
 .form-wrapper {
   display: none;
   position: fixed;

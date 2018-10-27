@@ -304,8 +304,9 @@ body {
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 14px;
+  letter-spacing: -0.04em;
+  text-align: justify;
   background-color: #2e2e2e33;
-  padding: 200px 0;
 }
 .register-form {
   width: 100%;
@@ -313,7 +314,7 @@ body {
   margin: 0 auto;
   position: relative;
   background-color: #fff;
-  padding: 72px 160px 81px;
+  padding: 72px 10%;
 }
 .register-form__container {
   display: flex;
@@ -322,8 +323,8 @@ body {
 }
 .register-form__close {
   position: absolute;
-  top: 41px;
-  right: 52px;
+  top: 25px;
+  right: 30px;
   background-color: #f1f1f1;
   border: none;
   border-radius: 37px;
@@ -332,12 +333,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .register-form__close--icon {
   width: 18px;
   height: 18px;
   fill: #ddd;
-  /* z-index: 5; */
 }
 .register-form__title {
   font-family: "Exo 2";
@@ -350,7 +351,6 @@ body {
   font-family: "Exo 2";
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 2.8; */
   padding-top: 28px;
   padding-bottom: 38px;
   color: #2e2e2e;
@@ -362,7 +362,6 @@ body {
   width: 100%;
   height: 32px;
   border: none;
-  /* outline: none; */
   border-bottom: 1px solid #ddd;
   margin-bottom: 18px;
 }
@@ -380,7 +379,6 @@ body {
 .register-form__themes-item label {
   margin-left: 28px;
 }
-
 .register-form__submit {
   width: 100%;
   height: 50px;
@@ -390,6 +388,7 @@ body {
   font-weight: 600;
   margin: 33px 0 42px;
   border: none;
+  cursor: pointer;
 }
 .register-form__terms {
   font-size: 13px;
@@ -401,3 +400,23 @@ body {
   text-decoration: none;
 }
 
+@media (min-width: 425px) {
+  .form-wrapper{
+    letter-spacing: 0.045em;
+  }
+  .register-form{
+    padding: 72px 15%;
+  }
+}
+@media (min-width: 768px) {
+  .form-wrapper {
+    padding: 200px 0;
+  }
+  .register-form {
+    padding: 72px 160px 81px;
+  }
+  .register-form__close {
+    top: 41px;
+    right: 52px;
+  }
+}

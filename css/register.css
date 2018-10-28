@@ -314,7 +314,7 @@ body {
   top: 25px;
   right: 30px;
   background-color: #f1f1f1;
-  border: none;
+  border: 1px solid #f1f1f1;
   border-radius: 37px;
   width: 37px;
   height: 37px;
@@ -327,6 +327,12 @@ body {
   width: 18px;
   height: 18px;
   fill: #ddd;
+}
+.register-form__close:hover{
+  background-color: #ddd;
+}
+.register-form__close:hover .register-form__close--icon{
+  fill: #f1f1f1;
 }
 .register-form__title {
   font-family: "Exo 2";
@@ -379,8 +385,13 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   margin: 33px 0 42px;
-  border: none;
+  border: 2px solid #17becf;
   cursor: pointer;
+}
+.register-form__submit:hover{
+  background-color: #fff;
+  color: #17becf;
+  font-weight: 700;
 }
 .register-form__terms {
   font-size: 13px;

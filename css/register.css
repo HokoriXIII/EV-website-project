@@ -364,6 +364,10 @@ body {
 .register-form__themes-item {
   margin-bottom: 19px;
 }
+.register-form__themes-item input,
+.register-form__themes-item label{
+  cursor: pointer;
+}
 .register-form__themes-item label {
   margin-left: 28px;
 }

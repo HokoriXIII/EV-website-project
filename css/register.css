@@ -322,11 +322,13 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: .2s linear;
 }
 .register-form__close--icon {
   width: 18px;
   height: 18px;
   fill: #ddd;
+  transition: .2s linear;
 }
 .register-form__close:hover{
   background-color: #ddd;
@@ -387,6 +389,7 @@ body {
   margin: 33px 0 42px;
   border: 2px solid #17becf;
   cursor: pointer;
+  transition: .3s linear;
 }
 .register-form__submit:hover{
   background-color: #fff;
